@@ -49,6 +49,18 @@
             ],
             "problemMatcher": "$msCompile"
         },
+        {
+            "label": "build-solo-prep-5",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/solo_prep_5/solo_prep_5.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
 
     ]
 }

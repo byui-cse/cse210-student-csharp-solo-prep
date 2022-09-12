@@ -45,5 +45,16 @@
             "console": "integratedTerminal",
             "stopAtEntry": false
         },
+        {
+            "name": "Solo Prep 5",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-solo-prep-5",
+            "program": "${workspaceFolder}/solo_prep_5/bin/Debug/net5.0/solo_prep_5.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/solo_prep_5",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
     ]
 }
