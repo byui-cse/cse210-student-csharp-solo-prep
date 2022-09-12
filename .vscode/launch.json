@@ -1,0 +1,49 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Solo Prep 1",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-solo-prep-1",
+            "program": "${workspaceFolder}/solo_prep_1/bin/Debug/net5.0/solo_prep_1.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/solo_prep_1",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Solo Prep 2",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-solo-prep-2",
+            "program": "${workspaceFolder}/solo_prep_2/bin/Debug/net5.0/solo_prep_2.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/solo_prep_2",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Solo Prep 3",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-solo-prep-3",
+            "program": "${workspaceFolder}/solo_prep_3/bin/Debug/net5.0/solo_prep_3.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/solo_prep_3",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Solo Prep 4",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-solo-prep-4",
+            "program": "${workspaceFolder}/solo_prep_4/bin/Debug/net5.0/solo_prep_4.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/solo_prep_4",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+    ]
+}

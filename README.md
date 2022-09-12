@@ -1,6 +1,6 @@
 # cse210-student-csharp-solo-prep
-C# Solo Prep Assignments for CSE 210
-Author: Brother Burton
+* C# Solo Prep Assignments for CSE 210
+* Author: Brother Burton
 
 This repository contains sample solutions (in C#) for the following assignments from CSE 110:
 
