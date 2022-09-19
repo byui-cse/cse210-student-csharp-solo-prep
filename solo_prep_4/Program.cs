@@ -31,7 +31,12 @@ namespace solo_prep_4
             Console.WriteLine($"The sum is: {sum}");
 
             // Part 2: Compute the average
-            float average = sum / numbers.Count;
+            // Notice that I first cast the sum variable to be a float. Otherwise, because
+            // both the sum and the count are integers, the computer will do integer division
+            // and I will not get a decimal value (even though it puts the result into a float variable).
+            // By making one of the variables a float first, the computer knows that it has to
+            // do the floating point division, and I get the decimal value that I expect.
+            float average = ((float)sum) / numbers.Count;
             Console.WriteLine($"The average is: {average}");
 
             // Part 3: Find the max
